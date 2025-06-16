@@ -125,7 +125,7 @@ export const DATA = {
         "HTML",
         "CSS"
       ],
-      links: ["https://catto.onrender.com]"],
+      links: ["https://catto.onrender.com"],
       image: "",
       video: "",
     }
