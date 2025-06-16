@@ -111,6 +111,24 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+     title: "Ecommerce",
+      href: "https://catto.onrender.com",
+      dates: "01-05-2023",
+      active: true,
+      description:
+        "An ecommerce website, allow users to sell and buy products on the platform.",
+      technologies: [
+        "Django",
+        "render",
+        "Javasript",
+        "HTML",
+        "CSS"
+      ],
+      links: ["https://catto.onrender.com]"],
+      image: "",
+      video: "",
+    }
   ],
   education: [
     {
