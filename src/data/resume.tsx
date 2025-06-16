@@ -125,7 +125,13 @@ export const DATA = {
         "HTML",
         "CSS"
       ],
-      links: ["https://catto.onrender.com"],
+      links: [
+        {
+          type: "Website",
+          href: "https://catto.onrender.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "",
     }
