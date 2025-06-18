@@ -97,6 +97,25 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="certificates">
+      <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  My certificates
+        </div>
+        <div className="flex flex-col gap-y-3 py-8">
+        <h2 className="text-xl font-bold tracking-tighter sm:text-2xl">
+                  Take a look at what I have learned
+        </h2>
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-2xl">
+              I have learned about AI and the data world in my free time. I have earned more than 20 certificates, including professional certificates on platforms like Coursera and Udemy.
+            </p>
+            <div className="flex flex-wrap gap-4 mt-2">
+              <Link href="https://www.coursera.org/user/1e2e3e4e5e6e7e8e9e0e" className="text-blue-500 hover:underline" target="_blank">Coursera</Link>
+              <Link href="https://www.udemy.com/user/your-udemy-profile" className="text-blue-500 hover:underline" target="_blank">Udemy</Link>
+            </div>
+          </BlurFade>
+        </div>
+      </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
