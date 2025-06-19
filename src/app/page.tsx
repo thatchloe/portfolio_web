@@ -110,8 +110,8 @@ export default function Page() {
               I have learned about AI and the data world in my free time. I have earned more than 20 certificates, including professional certificates on platforms like Coursera and Udemy.
             </p>
             <div className="flex flex-wrap gap-4 mt-2">
-              <Link href="https://www.coursera.org/user/1e2e3e4e5e6e7e8e9e0e" className="text-blue-500 hover:underline" target="_blank">Coursera</Link>
-              <Link href="https://www.udemy.com/user/your-udemy-profile" className="text-blue-500 hover:underline" target="_blank">Udemy</Link>
+              <Link href="https://www.coursera.org/user/4e27dfe925873dde1a14d274d4eb636c" className="text-blue-500 hover:underline" target="_blank">Coursera</Link>
+              <Link href="https://www.udemy.com/user/luong-hoang-anh/" className="text-blue-500 hover:underline" target="_blank">Udemy</Link>
             </div>
           </BlurFade>
         </div>
