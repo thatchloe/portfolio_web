@@ -8,7 +8,7 @@ export const DATA = {
   location: "Barcelona, Spain",
   locationLink: "https://www.google.com/maps/place/barcelona",
   description:
-    "Software Engineer strongly interested in AI and Entrepreneurship. I love building things and helping people.",
+    "Software Engineer strongly interested in AI and Data. I love building things and helping people.",
   summary:
     "I am currently building my own SaaS business in my free time and actively looking for opportunity to work and learn from real world projects. In the past, [I pursued a degree in computer engineering](/#education), [interned at tech companies in Spain](#work), and [competed multiple side projects for fun](#projects)",
   avatarUrl: "/me.png",
@@ -134,7 +134,31 @@ export const DATA = {
       ],
       image: "",
       video: "",
-    }
+    },
+    {
+      title: "Stock dashboard",
+       href: "https://github.com/thatchloe/stock_dashboard",
+       dates: "01-05-2024",
+       active: true,
+       description:
+         "Scraped stock prices from Finviz and visualized it with a dashboard",
+       technologies: [
+         "Python",
+         "Beautiful Soup",
+         "Plotly",
+         "Dash",
+         "Git, Github"
+       ],
+       links: [
+         {
+           type: "Website",
+           href: "https://github.com/thatchloe/stock_dashboard",
+           icon: <Icons.globe className="size-3" />,
+         },
+       ],
+       image: "",
+       video: "",
+     }
   ],
   education: [
     {
